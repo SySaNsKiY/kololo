@@ -1,0 +1,34 @@
+.columns{
+     display: flex;	
+}	
+
+.column{
+     margin: 20px;
+	 flex : 50%;
+}	
+header,footer{
+	background-color: #c4eae4;
+	padding: 10px;
+}
+
+main{
+	padding: 10px; 
+	background-color: silver;
+}
+.post{
+	display: flex;
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.post img{
+	margin: 20px;
+	border-radius: 20px;
+}
+.post p{
+	font-size: 20px;
+}
+.post-info{
+	color: red
+}
